@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+//#!/usr/bin/env node
 // Usage: ./make.js command. Use -h for help.
 // This is a set of tasks for building and testing Vimium in development.
 
