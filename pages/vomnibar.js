@@ -436,7 +436,8 @@ class BackgroundCompleter {
       openInNewTab = !Utils.hasJavascriptPrefix(url);
     chrome.runtime.sendMessage({
       handler: openInNewTab ? "openUrlInNewTab" : "openUrlInCurrentTab",
-      url
+      url,
+      position: "end",
     });
   }
 }
