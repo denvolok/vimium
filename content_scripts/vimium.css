@@ -7,10 +7,12 @@
     --font-weight-medium: medium;
     --font-weight-bold: bold;
 
-    --font: "Helvetica Neue", "Helvetica", "Arial", sans-serif; /* Font used in the UI */
+    --font: "Rubik", "Rubik", "Rubik", "Arial", sans-serif; /* Font used in the UI */
     
     --shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     --shadow-vomnibar: 0 2px 16px rgba(0,0,0,0.3);
+
+    --c-yellow: #ffaf00;
 
 /* -------- VOMNIBAR & HUD -------- */
     --fg: #FFFFFF;
@@ -62,7 +64,7 @@ tr.vimiumReset {
   cursor: auto;
   display: inline;
   float: none;
-  font-family : "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family : "Rubik", "Rubik", "Rubik", "Arial", sans-serif;
   font-size: inherit;
   font-style: normal;
   font-variant: normal;
@@ -235,7 +237,7 @@ div.vimiumColumn table { width:100%; table-layout:auto; }
 div.vimiumColumn td { vertical-align:top; padding:1px; }
 div#vimiumHelpDialog div.vimiumColumn tr > td:first-of-type {
   /* This is the "key" column, e.g. "j", "gg". */
-  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family:"Rubik",Helvetica,Arial,sans-serif;
   font-size:14px;
   text-align:right;
   white-space:nowrap;
@@ -266,12 +268,12 @@ div#vimiumHelpDialog div.vimiumDivider {
 }
 div#vimiumHelpDialog td.vimiumHelpSectionTitle {
   padding-top:3px;
-  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family:"Rubik",Helvetica,Arial,sans-serif;
   font-size:16px;
   font-weight:bold;
 }
 div#vimiumHelpDialog td.vimiumHelpDescription {
-  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family:"Rubik",Helvetica,Arial,sans-serif;
   font-size:14px;
 }
 div#vimiumHelpDialog span.vimiumCopyCommandNameName {
@@ -456,6 +458,7 @@ iframe.vimiumUIComponentHidden {
 
 iframe.vimiumUIComponentVisible {
   display: block;
+  color-scheme: light dark;
 }
 
 iframe.vimiumUIComponentReactivated {
@@ -543,10 +546,6 @@ iframe.vimiumNonClickable {
     box-shadow: none;
     color: white;
   }
-}
-
-.vimiumUIComponentVisible {
-  color-scheme: normal;
 }
 
 /* --------------------------------- CSS --------------------------------- */
